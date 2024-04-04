@@ -37,6 +37,14 @@ namespace ClassWork
             Console.WriteLine(city1.Name);
             Console.WriteLine(City.CountryNumber);
 
+            //Ex 7
+            Matrix arr1 = new Matrix(5, 3);
+            arr1.Print();
+            int max = arr1.FindMax();
+            Console.WriteLine($"Max is: {max}");
+            arr1.Print();
+            Matrix arr2 = new Matrix(new int[,] { { 2, 4, 5, 2}, { 3, 5, 2, 5 } });
+            arr2.Print();
         }
     }
 }
